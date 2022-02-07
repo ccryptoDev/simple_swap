@@ -13,7 +13,7 @@ npm install
 
 ### Configure Environment
 
-Rename `.env.local.example` to `.env` and fill in the appropriate variables.
+Rename `.env.local.example` to `.env.local` and fill in the appropriate variables.
 
 ### Run
 

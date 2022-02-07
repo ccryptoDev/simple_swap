@@ -24,6 +24,9 @@ const supportedChainIds = process.env.REACT_APP_SUPPORTED_CHAINIDS
   .split(',')
   .map(id => Number(id))
 
+// make sure if env parameters works
+console.log('dot env ---- : ', supportedChainIds)
+
 const urls = supportedChainIds
   .reduce((accumulator, id) => {
     return {
