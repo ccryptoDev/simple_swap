@@ -104,9 +104,9 @@ export default function App() {
                       </Suspense>
                 </Body>
               </BodyWrapper>
-              <FooterWrapper>
+              {/* <FooterWrapper>
                 <Footer />
-              </FooterWrapper>
+              </FooterWrapper> */}
             </Web3ReactManager>
           </BrowserRouter>
         </AppWrapper>
